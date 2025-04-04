@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Software Testing & Cybersecurity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Software Tester | Cybersecurity Enthusiast</p>
+    </header>
+
+    <div style="max-width:50%; margin: 0 auto;">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate Software Tester and Cybersecurity enthusiast. I specialize in ensuring software quality and securing applications.</p>
+        </section>
+    
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>Software Testing (Manual & Automation)</li>
+                <li>Penetration Testing</li>
+                <li>Network Security</li>
+                <li>SQL & Database Security</li>
+            </ul>
+        </section>
+    
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="text" id="mobile" placeholder="Your Mobile Number" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p id="responseMessage"></p>
+        </section>
+    
+        <!-- ✅ New Section for Displaying Contact Messages -->
+        <!-- <section id="contactMessages">
+            <h2>Submitted Messages</h2>
+            <div id="messagesContainer"></div>
+        </section> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
